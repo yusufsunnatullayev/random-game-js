@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Game</title>
+  </head>
+  <body>
+    <section>
+      <div class="wrapper">
+        <h1>Find Random</h1>
+        <form>
+          <input
+            required
+            class="start ds"
+            type="number"
+            placeholder="Start Number"
+          />
+          <input
+            required
+            class="end ds"
+            type="number"
+            placeholder="Last Number"
+          />
+          <h2>Random Number: <span class="random-num"></span></h2>
+          <input
+            required
+            class="guess ds"
+            type="number"
+            placeholder="Your Guess"
+          />
+          <button class="enter-btn ds">Enter</button>
+        </form>
+        <h2>Attempts: <span class="number-of-attempts"></span></h2>
+        <h2>Result: <span class="result"></span></h2>
+        <button class="restart-btn">Restart</button>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
